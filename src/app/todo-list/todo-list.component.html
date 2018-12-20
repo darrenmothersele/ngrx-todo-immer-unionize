@@ -1,0 +1,12 @@
+<ul>
+    <li *ngFor="let task of tasks">
+        <div class="field">
+            <input class="is-checkradio"
+                   id="task-{{ task.id }}"
+                   type="checkbox"
+                   [checked]="task.done"
+                   (change)="toggleTask.emit(task)">
+            <label for="task-{{ task.id }}">{{ task.description }}</label>
+        </div>
+    </li>
+</ul>

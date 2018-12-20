@@ -2,7 +2,7 @@
 
 An example of using Immer and Unionize with NgRx for Angular. 
 
-[Open on StackBlitz](https://stackblitz.com/github/darrenmothersele/ngrx-todo-immer-unionize/tree/master)
+[Open on StackBlitz](https://stackblitz.com/github/darrenmothersele/ngrx-todo-immer-unionize/)
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.1.3.
 

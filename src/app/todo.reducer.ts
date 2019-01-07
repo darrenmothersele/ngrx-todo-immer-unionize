@@ -16,4 +16,8 @@ export const producer = (draft, action) => TodoActions.match(action, {
   default: () => {}
 });
 
-export const reducer = produce(producer, initialState);
+export const reducerProducer = produce(producer, initialState);
+
+export function reducer(state, action) {
+  return reducerProducer(state, action);
+}
